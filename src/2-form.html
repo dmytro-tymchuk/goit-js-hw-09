@@ -10,7 +10,17 @@
   <body>
     <main>
       <div class="container">
-        <h1 class="main-title">Form</h1>
+        <form class="feedback-form" autocomplete="off">
+          <label class="label">
+            Email
+            <input class="form-input" type="email" name="email" autofocus />
+          </label>
+          <label class="label">
+            Message
+            <textarea class="textarea" name="message" rows="8"></textarea>
+          </label>
+          <button class="button" type="submit">Submit</button>
+        </form>
         <a class="back-link" href="./index.html">Go back</a>
       </div>
     </main>

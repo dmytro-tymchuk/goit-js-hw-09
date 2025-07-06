@@ -1,0 +1,19 @@
+* {
+  list-style: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  column-gap: 20px;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 100%;
+}
+
+.gallery-item:hover {
+  scale: 103%;
+}
